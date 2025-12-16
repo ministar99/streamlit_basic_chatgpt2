@@ -1,0 +1,1231 @@
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+1 
+ 
+ 
+streamlit github 연동 배포 
+ 
+ 
+ 
+1.깃허브 로그인 
+ 
+2.레포지토리 클릭 
+ 
+3.New 클릭 
+ 
+4.Add .gitignore 
+ 
+5.create repository 클릭 
+ 
+6.퍼블릭 오픈 완성 및 code 클릭 
+ 
+7.HTTPS 클릭 후 코드 복사 
+ 
+8.C 드라이브에 Git bash here 생성 
+ 
+10.해당 폴더로 이동 
+ 
+11.가상환경 만들기 
+ 
+12.가상환경 실행 
+ 
+13.streamlit, pandas 설치 
+ 
+14. streamlit_basic.py 파일 생성 
+ 
+15.명령문 실행 
+ 
+16.깃 업데이트 
+ 
+17.웹사이트 등록 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+2 
+ 
+1.깃허브 로그인 
+https://github.com/ 
+로그인 
+ 
+2.레포지토리 클릭 
+ 
+ 
+Repository name :  
+streamlit_basic_chatgpt1 
+ 
+oepai 연동 스트림릿 프로젝트1 
+3.New 클릭 
+ 
+4.Add .gitignore 
+ 
+5.create repository 클릭 
+ 
+ 
+ 
+ 
+README On 으로 체크 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+4 
+ 
+6.퍼블릭 오픈 완성 및 code 클릭 
+ 
+https://github.com/ksmartid/streamlit_basic_chatgpt1 
+ 
+ 
+ 
+ 
+7.HTTPS 클릭 후 코드 복사 
+ 
+https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+5 
+ 
+8.C 드라이브에 Git bash here 생성 
+ 
+git 설치 되어 있지 않다면 설치 진행 합니다. 
+https://git-scm.com/downloads/win 
+ 
+https://junesker.tistory.com/95 
+ 
+ 
+C:\ 
+ 
+ 
+ 
+ 
+ASUS@teacher301 MINGW64 /c 
+$ 
+ 
+git clone 까지 타자 치고 복사 한 https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+ 
+git clone https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+6 
+ 
+ASUS@teacher301 MINGW64 /c 
+$ git clone https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+Cloning into 'streamlit_basic_chatgpt1'... 
+remote: Enumerating objects: 4, done. 
+remote: Counting objects: 100% (4/4), done. 
+remote: Compressing objects: 100% (4/4), done. 
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0) 
+Receiving objects: 100% (4/4), done. 
+ 
+ 
+ 
+ 
+$ ls streamlit_basic_chatgpt1/ 
+README.md 
+C:\streamlit_basic_chatgpt1 
+ 
+github 에서 클론한 파일이 보인다. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+7 
+ 
+10.해당 폴더로 이동 
+cd 입력 후 한칸 띄우고 stream 정도 입력 후 Tab 키 자동 폴더 이동 가능합니다. 
+ 
+$ cd streamlit_basic_chatgpt1/ 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ ls -al 
+total 25 
+drwxr-xr-x 1 ASUS 197121    0 Sep 19 14:07 ./ 
+drwxr-xr-x 1 ASUS 197121    0 Sep 19 14:07 ../ 
+drwxr-xr-x 1 ASUS 197121    0 Sep 19 14:07 .git/ 
+-rw-r--r-- 1 ASUS 197121 4895 Sep 19 14:07 .gitignore 
+-rw-r--r-- 1 ASUS 197121   69 Sep 19 14:07 README.md 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+8 
+ 
+11.가상환경 만들기 
+12.가상환경 실행 
+python -m venv myvenv2 
+.\myvenv2\Scripts\activate 
+ 
+$ pwd 
+/c/streamlit_basic_chatgpt1 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ python -m venv myvenv2 
+$ ls 
+README.md  myvenv2/ 
+$ source myvenv2/Scripts/activate 
+(myvenv2) 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ ls 
+README.md  myvenv2/ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+9 
+ 
+ 
+13-1.streamlit, pandas 설치 등 파이썬 라이브러리 직접 설치방법 
+14. streamlit_basic.py 파일 생성 
+ 
+15.streamlit 실행 명령문 실행(웹브라우져 테스트 완료) 
+ 
+ 
+C:\streamlit_basic_chatgpt1 
+ 
+경로 이동 후  
+ 
+cmd 
+Microsoft Windows [Version 10.0.26100.6584] 
+(c) Microsoft Corporation. All rights reserved. 
+ 
+C:\streamlit_basic_chatgpt1>code . 
+ 
+ 
+ 
+ 
+ 
+C:\streamlit_basic_chatgpt1>.\myvenv2\Scripts\activate 
+ 
+(myvenv2) C:\streamlit_basic_chatgpt1>pip install openai==1.58.1 
+Collecting openai==1.58.1 
+ 
+(myvenv2) C:\streamlit_basic_chatgpt1>pip install python-dotenv 
+Collecting python-dotenv 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+10 
+ 
+(myvenv2) C:\streamlit_basic_chatgpt1>pip install streamlit==1.41.1 
+ 
+ 
+ 
+(myvenv2) C:\streamlit_basic_chatgpt1>pip freeze > requirements.txt 
+ 
+C:\streamlit_basic_chatgpt1\chap03\sec03\streamlit_basic.py 
+ 
+ 
+ 
+(myvenv2) 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ streamlit run chap03/sec03/streamlit_basic.py 
+ 
+Local URL: http://localhost:8501 
+Network URL: http://192.168.0.112:8501 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+11 
+ 
+ 
+로컬에서 테스트 완료 
+ 
+ 
+pip install openai==1.58.1 
+pip install python-dotenv 
+pip install streamlit==1.41.1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+12 
+ 
+13-2.(미완료) streamlit, pandas 설치 등 파이썬 라이브러리를 한번에 설치할 수 있도록 
+개발프로젝트에서 requirement.txt 파일 만들고 
+배포프로젝트에서 requirement.txt 파일로 라이브러리 설치 하도록 한다. 
+ 
+C:\streamlit_basic_chatgpt1 
+ 
+경로 이동 후  
+ 
+cmd 
+Microsoft Windows [Version 10.0.26100.6584] 
+(c) Microsoft Corporation. All rights reserved. 
+ 
+C:\streamlit_basic_chatgpt1>code . 
+ 
+ 
+ 
+1. 라이브러리 추출 방법1 
+pip freeze > requirements.txt 
+ 
+D:\leehyoungyeol\lee\python_ai_agent 
+개발 프로젝트 가상환경 경로 이동 
+D:\leehyoungyeol\lee\python_ai_agent>pip freeze > requirements.txt 
+ 
+D:\leehyoungyeol\lee\python_ai_agent>dir 
+ D 드라이브의 볼륨: ksmart 
+ 볼륨 일련 번호: 40E7-5430 
+ 
+ D:\leehyoungyeol\lee\python_ai_agent 디렉터리 
+ 
+2025-09-19  오후 02:29    <DIR>          . 
+2025-09-19  오전 09:48    <DIR>          .. 
+2025-09-19  오전 11:03    <DIR>          .vscode 
+2025-09-19  오전 11:36    <DIR>          chap02 
+2025-09-19  오후 12:09    <DIR>          chap03 
+2025-09-19  오후 12:24    <DIR>          myvenv1 
+2025-09-19  오후 02:29                 0 requirements.txt 
+ 
+ 
+2. 라이브러리 추출 방법2 
+pip list --format=freeze > requirements.txt 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+13 
+ 
+ 
+D:\leehyoungyeol\lee\python_ai_agent\chap03>pip list --format=freeze > 
+requirements.txt 
+ 
+D:\leehyoungyeol\lee\python_ai_agent\chap03>dir 
+ D 드라이브의 볼륨: ksmart 
+ 볼륨 일련 번호: 40E7-5430 
+ 
+ D:\leehyoungyeol\lee\python_ai_agent\chap03 디렉터리 
+ 
+2025-09-19  오후 02:30    <DIR>          . 
+2025-09-19  오후 02:29    <DIR>          .. 
+2025-07-15  오후 04:27               179 .env 
+2025-09-19  오후 02:30                11 requirements.txt 
+2025-09-19  오후 12:09    <DIR>          sec01 
+2025-09-19  오후 12:09    <DIR>          sec02 
+2025-09-19  오후 12:09    <DIR>          sec03 
+               2 개 파일                 190 바이트 
+               5 개 디렉터리  98,395,017,216 바이트 남음 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+14 
+ 
+16.깃 업데이트 
+ 
+C:\streamlit_basic_chatgpt1 
+ 
+ 
+git init : 프로젝트 디렉토리를 git 저장소로 지정 
+ 
+$ git init 
+Reinitialized existing Git repository in C:/streamlit_basic_chatgpt1/.git/ 
+ 
+$ git clone https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+fatal: destination path 'streamlit_basic_chatgpt1' already exists and is not an empty 
+directory. 
+$ git config --global user.name "leehyoungyeol" 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ git config --global user.email "hyoung814@daum.net" 
+gid add : push 할 파일들을 스테이징 영역에 올리기 
+ 
+$ git add . 
+ 
+* warning: LF will be replaced by CRLF 이 뜬다면 아래 설정 이후 재시도 
+ 
+$ git config --global core.autocrlf true 
+ 
+git commit : 최초 커밋 하기 
+ 
+$ git commit -m "initial commit" 
+On branch main 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+15 
+ 
+Your branch is ahead of 'origin/main' by 1 commit. 
+  (use "git push" to publish your local commits) 
+ 
+nothing to commit, working tree clean 
+git log : 커밋 히스토리 조회 
+ 
+$ git log 
+commit 7c807b55de5ea5bc8179c184cc5467e9b90c437f (HEAD -> main) 
+Author: ksmartid <hyoung814@daum.net> 
+Date:   Fri Sep 19 15:25:08 2025 +0900 
+ 
+    first streamlit commit 
+ 
+commit 1d416f05f2aa189651d9e1151afbfe3b0279177b (origin/main, origin/HEAD) 
+Author: hyoung yeol lee <hyoung814@daum.net> 
+Date:   Fri Sep 19 13:58:27 2025 +0900 
+ 
+    Initial commit 
+git remote add ..  :  remote 저장소 추가 
+이미 저장소가 있다면 존재한다고 나온다. 
+ 
+$ git remote add origin https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+error: remote origin already exists. 
+ 
+git push : remote 에 push  
+## git push "remote name" "remote branch name" 
+git push origin main 
+ 
+https://hyeo-noo.tistory.com/184 
+ 
+1. 깃허브에서 Settings 클릭 
+ 
+https://github.com/settings/profile 
+ 
+2.  Developer settings 클릭 
+ 
+https://github.com/settings/apps 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+16 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Personal access tokens 클릭 
+https://github.com/settings/tokens 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+17 
+ 
+ 
+ 
+ 
+4. Generate new token 클릭 
+https://github.com/settings/personal-access-tokens/new 
+ 
+ 
+ 
+ 
+5. Token 설정 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+18 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+19 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+20 
+ 
+ 
+ 
+https://github.com/settings/personal-access-tokens 
+ 
+ 
+ 
+복사 후 저장 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+21 
+ 
+ 
+ 
+git push <remote> <branch> 
+ 
+ 
+$ git push https://github.com/ksmartid/streamlit_basic_chatgpt1.git main 
+Everything up-to-date 
+ 
+'제어판' >> '사용자 계정' >> '자격 증명 관리' → 기존 git 계정 정보 삭제 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+22 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+23 
+ 
+ 
+ 
+ 
+https://github.com/login/oauth/authorize?client_id=0120e057bd645470c1ed&code_challeng
+e=Oj9bhDQV9cTfu5xzYGZ5g4b-
+sq1HFq39YHTPbRtwdSo&code_challenge_method=S256&redirect_uri=http%3A%2F%2F127.
+0.0.1%3A63712%2F&response_type=code&scope=repo+gist+workflow&state=4f55a62b8bc0
+4e078dbea4c9f0f796b8 
+ 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ git push origin main 
+info: please complete authentication in your browser... 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+24 
+ 
+Enumerating objects: 6, done. 
+Counting objects: 100% (6/6), done. 
+Delta compression using up to 12 threads 
+Compressing objects: 100% (3/3), done. 
+Writing objects: 100% (5/5), 1.20 KiB | 615.00 KiB/s, done. 
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0) 
+To https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+   1d416f0..7c807b5  main -> main 
+ 
+ 
+https://github.com/ksmartid/streamlit_basic_chatgpt1 
+ 
+ 
+ 
+ 
+ 
+push 업로드 안되는 경우 직접 github 사이트에서 업로드 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+25 
+ 
+ 
+ 
+ 
+ 
+.gitIgnore 추가하기 (번외) 
+먼저 .gitIgnore 을 작성해야 한다. 나의 경우 https://www.toptal.com/developers/gitignore/ 
+사이트를 이용해 작성한다. 
+그 다음 저장소에 파일을 올려야 하는데, 나는 github 에 직접 작성한 다음 로컬에 pull 을 
+받는 방법을 사용한다. 
+다른 방법으로는 로컬에서 만들어서 push 하는 방법이 있다. 여기선 로컬에서 push 하는 
+방법을 설명한다. 너무 간단하다. 
+위 사이트에서 파일을 만들어 로컬 저장소 최상위 루트에 .gitignore 를 위치시킨 다음 
+ 
+ 
+ 
+ 
+ 
+## stage 에 올리기 
+git add .gitignore 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+26 
+ 
+ 
+## 커밋 
+git commit -m "add gitignore" 
+ 
+## push 
+git push origin main 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+27 
+ 
+17.웹사이트 등록 
+ 
+https://github.com/ksmartid/streamlit_basic_chatgpt1 
+ 
+ 
+ 
+ 
+Settings 
+https://github.com/ksmartid/streamlit_basic_chatgpt1/settings 
+ 
+ 
+왼쪽 메뉴 -> Pages 
+https://github.com/ksmartid/streamlit_basic_chatgpt1/settings/pages 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+28 
+ 
+ 
+ 
+main 브런치 변경 후 Save 버튼 클릭 
+ 
+ 
+다시 Pages 메뉴 클릭 
+https://github.com/ksmartid/streamlit_basic_chatgpt1/settings/pages 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+29 
+ 
+ 
+ 
+https://ksmartid.github.io/streamlit_basic_chatgpt1/ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+30 
+ 
+[2] streamlit 사이트 배포 
+ 
+ 
+C:\streamlit_basic_chatgpt1>pip list --format=freeze > requirements.txt 
+ 
+C:\streamlit_basic_chatgpt1>dir 
+ C 드라이브의 볼륨에는 이름이 없습니다. 
+ 볼륨 일련 번호: 5C4D-6937 
+ 
+ C:\streamlit_basic_chatgpt1 디렉터리 
+ 
+2025-09-19  오후 04:55    <DIR>          . 
+2025-09-19  오후 02:07             4,895 .gitignore 
+2025-09-19  오후 02:59    <DIR>          chap03 
+2025-09-19  오후 02:53    <DIR>          myvenv2 
+2025-09-19  오후 02:07                69 README.md 
+2025-09-19  오후 04:55                11 requirements.txt 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+31 
+ 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ pwd 
+/c/streamlit_basic_chatgpt1 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ git add . 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ git commit -m "2-commit message" 
+[main 1d7ef72] 2-commit message 
+ 1 file changed, 1 insertion(+) 
+ create mode 100644 requirements.txt 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ git push https://github.com/ksmartid/streamlit_basic_chatgpt1.git main 
+Enumerating objects: 4, done. 
+Counting objects: 100% (4/4), done. 
+Delta compression using up to 12 threads 
+Compressing objects: 100% (2/2), done. 
+Writing objects: 100% (3/3), 286 bytes | 286.00 KiB/s, done. 
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0) 
+remote: Resolving deltas: 100% (1/1), completed with 1 local object. 
+To https://github.com/ksmartid/streamlit_basic_chatgpt1.git 
+   7c807b5..1d7ef72  main -> main 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+32 
+ 
+https://share.streamlit.io/ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+33 
+ 
+ 
+Continue with Github 클릭 
+ 
+https://share.streamlit.io/new 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+34 
+ 
+https://share.streamlit.io/deploy 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+35 
+ 
+ 
+ 
+Advanced settings  
+OPEN_API_KEY 셋팅 후 Deploy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+36 
+ 
+https://appbasicchatgpt1-ddyce6grdr8ccytpmcojvb.streamlit.app/ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+37 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+38 
+ 
+chap03/streamlit_basic.py 
+ 
+https://github.com/ksmartid/streamlit_basic_chatgpt1/blob/main/chap03/streamlit_basic.py 
+ 
+지금은 위 경로로 배포했다. 
+ 
+ 
+ 
+ 
+C:\streamlit_basic_chatgpt1\chap03\ requirements.txt 
+altair==5.5.0 
+annotated-types==0.7.0 
+anyio==4.10.0 
+attrs==25.3.0 
+blinker==1.9.0 
+cachetools==5.5.2 
+certifi==2025.8.3 
+charset-normalizer==3.4.3 
+click==8.3.0 
+colorama==0.4.6 
+distro==1.9.0 
+gitdb==4.0.12 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+39 
+ 
+GitPython==3.1.45 
+h11==0.16.0 
+httpcore==1.0.9 
+httpx==0.28.1 
+idna==3.10 
+Jinja2==3.1.6 
+jiter==0.11.0 
+jsonschema==4.25.1 
+jsonschema-specifications==2025.9.1 
+markdown-it-py==4.0.0 
+MarkupSafe==3.0.2 
+mdurl==0.1.2 
+narwhals==2.5.0 
+numpy==2.3.3 
+openai==1.58.1 
+packaging==24.2 
+pandas==2.3.2 
+pillow==11.3.0 
+pip==25.2 
+protobuf==5.29.5 
+pyarrow==21.0.0 
+pydantic==2.11.9 
+pydantic_core==2.33.2 
+pydeck==0.9.1 
+Pygments==2.19.2 
+python-dateutil==2.9.0.post0 
+python-dotenv==1.1.1 
+pytz==2025.2 
+referencing==0.36.2 
+requests==2.32.5 
+rich==13.9.4 
+rpds-py==0.27.1 
+six==1.17.0 
+smmap==5.0.2 
+sniffio==1.3.1 
+streamlit==1.41.1 
+tenacity==9.1.2 
+toml==0.10.2 
+tornado==6.5.2 
+tqdm==4.67.1 
+typing_extensions==4.15.0 
+typing-inspection==0.4.1 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+40 
+ 
+tzdata==2025.2 
+urllib3==2.5.0 
+watchdog==6.0.0 
+ 
+ 
+requirements.txt  추출 방법 최종 확인 
+ 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ source myvenv2/Scripts/activate 
+(myvenv2) 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1 (main) 
+$ cd chap03/ 
+(myvenv2) 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1/chap03 (main) 
+$ pip list --format=freeze > requirements.txt 
+(myvenv2) 
+ASUS@teacher301 MINGW64 /c/streamlit_basic_chatgpt1/chap03 (main) 
+$ cat requirements.txt 
+altair==5.5.0 
+annotated-types==0.7.0 
+anyio==4.10.0 
+attrs==25.3.0 
+blinker==1.9.0 
+cachetools==5.5.2 
+certifi==2025.8.3 
+charset-normalizer==3.4.3 
+click==8.3.0 
+colorama==0.4.6 
+distro==1.9.0 
+gitdb==4.0.12 
+GitPython==3.1.45 
+h11==0.16.0 
+httpcore==1.0.9 
+httpx==0.28.1 
+idna==3.10 
+Jinja2==3.1.6 
+jiter==0.11.0 
+jsonschema==4.25.1 
+jsonschema-specifications==2025.9.1 
+markdown-it-py==4.0.0 
+MarkupSafe==3.0.2 
+mdurl==0.1.2 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+41 
+ 
+narwhals==2.5.0 
+numpy==2.3.3 
+openai==1.58.1 
+packaging==24.2 
+pandas==2.3.2 
+pillow==11.3.0 
+pip==25.2 
+protobuf==5.29.5 
+pyarrow==21.0.0 
+pydantic==2.11.9 
+pydantic_core==2.33.2 
+pydeck==0.9.1 
+Pygments==2.19.2 
+python-dateutil==2.9.0.post0 
+python-dotenv==1.1.1 
+pytz==2025.2 
+referencing==0.36.2 
+requests==2.32.5 
+rich==13.9.4 
+rpds-py==0.27.1 
+six==1.17.0 
+smmap==5.0.2 
+sniffio==1.3.1 
+streamlit==1.41.1 
+tenacity==9.1.2 
+toml==0.10.2 
+tornado==6.5.2 
+tqdm==4.67.1 
+typing_extensions==4.15.0 
+typing-inspection==0.4.1 
+tzdata==2025.2 
+urllib3==2.5.0 
+watchdog==6.0.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+42 
+ 
+requirement.txt 파일 삭제 후 
+cmd 실행 
+C:\streamlit_basic_chatgpt1>.\myvenv2\Scripts\activate 
+ 
+(myvenv2) C:\streamlit_basic_chatgpt1>dir 
+ C 드라이브의 볼륨에는 이름이 없습니다. 
+ 볼륨 일련 번호: 5C4D-6937 
+ 
+ C:\streamlit_basic_chatgpt1 디렉터리 
+ 
+2025-09-19  오후 04:58    <DIR>          . 
+2025-09-19  오후 02:07             4,895 .gitignore 
+2025-09-19  오후 05:17    <DIR>          chap03 
+2025-09-19  오후 02:53    <DIR>          myvenv2 
+2025-09-19  오후 02:07                69 README.md 
+               2 개 파일               4,964 바이트 
+               3 개 디렉터리  62,479,327,232 바이트 남음 
+ 
+ 
+ 
+(myvenv2) C:\streamlit_basic_chatgpt1>cd chap03 
+ 
+(myvenv2) C:\streamlit_basic_chatgpt1\chap03>pip list --format=freeze > 
+requirements.txt 
+C:\streamlit_basic_chatgpt1\chap03\ requirements.txt 
+altair==5.5.0 
+annotated-types==0.7.0 
+anyio==4.10.0 
+attrs==25.3.0 
+blinker==1.9.0 
+cachetools==5.5.2 
+certifi==2025.8.3 
+charset-normalizer==3.4.3 
+click==8.3.0 
+colorama==0.4.6 
+distro==1.9.0 
+gitdb==4.0.12 
+GitPython==3.1.45 
+h11==0.16.0 
+httpcore==1.0.9 
+httpx==0.28.1 
+idna==3.10 
+ 
+ 한국스마트정보교육원 ksmart.or.kr 063-717-1008 
+ 
+                                          이형열 010-9400-1132 hyoung814@daum.net 
+43 
+ 
+Jinja2==3.1.6 
+jiter==0.11.0 
+jsonschema==4.25.1 
+jsonschema-specifications==2025.9.1 
+markdown-it-py==4.0.0 
+MarkupSafe==3.0.2 
+mdurl==0.1.2 
+narwhals==2.5.0 
+numpy==2.3.3 
+openai==1.58.1 
+packaging==24.2 
+pandas==2.3.2 
+pillow==11.3.0 
+pip==25.2 
+protobuf==5.29.5 
+pyarrow==21.0.0 
+pydantic==2.11.9 
+pydantic_core==2.33.2 
+pydeck==0.9.1 
+Pygments==2.19.2 
+python-dateutil==2.9.0.post0 
+python-dotenv==1.1.1 
+pytz==2025.2 
+referencing==0.36.2 
+requests==2.32.5 
+rich==13.9.4 
+rpds-py==0.27.1 
+six==1.17.0 
+smmap==5.0.2 
+sniffio==1.3.1 
+streamlit==1.41.1 
+tenacity==9.1.2 
+toml==0.10.2 
+tornado==6.5.2 
+tqdm==4.67.1 
+typing_extensions==4.15.0 
+typing-inspection==0.4.1 
+tzdata==2025.2 
+urllib3==2.5.0 
+watchdog==6.0.0 
+가상환경 연결 후 requirements.txt 파일 만들고자 하는 경로에서 생성하면 끝!~~ 
